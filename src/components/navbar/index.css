@@ -200,8 +200,11 @@
   background-color: #c8c5ffa6;
   width: 100%;
   height: 100%;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  background: rgba(147, 147, 147, 0.43);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .sideNavbar .sideNavbar__right {
