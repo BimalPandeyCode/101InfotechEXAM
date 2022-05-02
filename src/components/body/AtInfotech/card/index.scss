@@ -1,0 +1,37 @@
+.Card {
+  width: 290px;
+  height: 290px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.247);
+  border-radius: 20px;
+  .Card__logo {
+    place-self: start;
+    align-self: center;
+    height: 80px;
+    width: 107px;
+    display: grid;
+    align-items: center;
+    img {
+      margin: auto;
+    }
+  }
+  .Card__container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    .Card__container__div {
+      width: 90%;
+      .Card__container__title {
+        font-size: 20px;
+        font-weight: 500;
+        color: #753bbd;
+        margin: 10px 0px 20px 0px;
+      }
+      .Card__container__txt {
+        color: #767683;
+        font-size: 13px;
+        line-height: 2.5;
+      }
+    }
+  }
+}

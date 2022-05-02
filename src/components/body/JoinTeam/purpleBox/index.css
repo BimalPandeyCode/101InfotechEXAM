@@ -1,0 +1,176 @@
+.customer {
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.customer .customer__div {
+  width: 70%;
+  height: 234px;
+  background: linear-gradient(266.61deg, #2a165a -56.6%, #12105c -56.58%, #4f3376 103.93%);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden !important;
+}
+
+.customer .customer__div .customer__div__container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.customer .customer__div .customer__div__container .customer__div__spanContainer {
+  position: absolute;
+  height: 100%;
+}
+
+.customer .customer__div .customer__div__container .customer__div__spanContainer .customer__div__one {
+  position: relative;
+  display: block;
+  top: -15%;
+  left: -235px;
+  width: 319px;
+  height: 319px;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15.67%, rgba(214, 239, 248, 0.153)), color-stop(115.67%, rgba(214, 239, 248, 0)));
+  background: linear-gradient(180deg, rgba(214, 239, 248, 0.153) 15.67%, rgba(214, 239, 248, 0) 115.67%);
+}
+
+.customer .customer__div .customer__div__container .customer__div__spanContainer2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.customer .customer__div .customer__div__container .customer__div__spanContainer2 .customer__div__two {
+  position: relative;
+  display: block;
+  top: 25%;
+  left: 40%;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15.67%, rgba(214, 239, 248, 0.153)), color-stop(115.67%, rgba(214, 239, 248, 0)));
+  background: linear-gradient(180deg, rgba(214, 239, 248, 0.153) 15.67%, rgba(214, 239, 248, 0) 115.67%);
+}
+
+.customer .customer__div .customer__div__infoContainer {
+  z-index: 2;
+  width: 70vw;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer1 .customer__div__infoContainer1__num {
+  font-size: 64px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer1 .customer__div__infoContainer1__txt {
+  font-weight: 300;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer2 .customer__div__infoContainer2__num {
+  font-size: 64px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer2 .customer__div__infoContainer2__txt {
+  font-weight: 300;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer3 .customer__div__infoContainer3__num {
+  font-size: 64px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer3 .customer__div__infoContainer3__txt {
+  font-weight: 300;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer4 .customer__div__infoContainer4__num {
+  font-size: 64px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer4 .customer__div__infoContainer4__txt {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 550px) {
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div {
+    width: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 20px;
+    -webkit-box-pack: safe;
+        -ms-flex-pack: safe;
+            justify-content: safe;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+  }
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer1 {
+    font-size: 12px;
+  }
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer1 .customer__div__infoContainer1__num {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer2 {
+    font-size: 12px;
+  }
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer2 .customer__div__infoContainer2__num {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer3 {
+    font-size: 12px;
+  }
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer3 .customer__div__infoContainer3__num {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer4 {
+    font-size: 12px;
+  }
+  .customer .customer__div .customer__div__infoContainer .customer__div__infoContainer__div .customer__div__infoContainer4 .customer__div__infoContainer4__num {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

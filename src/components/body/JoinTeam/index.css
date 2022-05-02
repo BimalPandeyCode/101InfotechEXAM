@@ -1,0 +1,138 @@
+.ready {
+  overflow-x: hidden;
+  background-color: #f9f3ff;
+}
+
+.ready .ready__div {
+  width: 100vw;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.ready .ready__div .ready__div__container {
+  width: 90%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.ready .ready__div .ready__div__container .ready__div__container__title {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.ready .ready__div .ready__div__container .ready__div__container__cardHolder {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.ready .ready__div .ready__div__container .ready__div__container__cardHolder .ready__div__container__cardHolder__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  row-gap: 30px;
+  -webkit-column-gap: 1.5vw;
+          column-gap: 1.5vw;
+}
+
+.ready .ready__div .ready__div__container .ready__div__container__cardHolder .ready__div__container__cardHolder__container::after {
+  content: "";
+  width: 350px;
+}
+
+.ready .ready__div .ready__div__container .ready__div__container__button {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.ready .ready__recruitment {
+  width: 100vw;
+}
+
+.ready .ready__recruitment .ready__recruitment__titleContainer {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.ready .ready__recruitment .ready__recruitment__cardsContainer {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.ready .ready__recruitment .ready__recruitment__cardsContainer .ready__recruitment__cardsContainer__div {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  row-gap: 50px;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+@media screen and (max-width: 780px) {
+  .ready .ready__div .ready__div__container {
+    width: 100%;
+  }
+  .ready .ready__div .ready__div__container .ready__div__container__cardHolder .ready__div__container__cardHolder__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 30px;
+    -webkit-column-gap: 1.5vw;
+            column-gap: 1.5vw;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .ready .ready__div .ready__div__container .ready__div__container__button {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .ready .ready__recruitment {
+    width: 100vw;
+  }
+  .ready .ready__recruitment .ready__recruitment__titleContainer {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .ready .ready__recruitment .ready__recruitment__cardsContainer {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .ready .ready__recruitment .ready__recruitment__cardsContainer .ready__recruitment__cardsContainer__div {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 50px;
+    -webkit-column-gap: 15px;
+            column-gap: 15px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

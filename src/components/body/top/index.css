@@ -1,0 +1,113 @@
+.top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-bottom: 120px;
+}
+
+.top .top__joinContainer {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.top .top__joinContainer .top__joinContainer__div {
+  margin-left: 0px;
+}
+
+.top .top__joinContainer .top__joinContainer__div .top__joinContainer__join {
+  color: black;
+  font-size: 20px;
+}
+
+.top .top__joinContainer .top__joinContainer__div .top__joinContainer__join .top__joinContainer__join__companyName {
+  color: #753bbd;
+}
+
+.top .top__joinContainer .top__joinContainer__div .top__joinContainer__txtContainer {
+  font-size: 13px;
+  color: #767683;
+  margin-bottom: 60px;
+}
+
+.top .top__joinContainer .top__joinContainer__div .top__joinContainer__buttonContainer .top__joinContainer__buttonContainer__button {
+  width: 136px;
+  height: 47px;
+  background-color: #753bbd;
+  border-radius: 20px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.top .top__joinContainer .top__joinContainer__div .top__joinContainer__buttonContainer .top__joinContainer__buttonContainer__button .top__joinContainer__buttonContainer__button__txt {
+  color: white;
+}
+
+.top .top__imgContainer .top__imgContainer__div .top__imgContainer__div__img {
+  width: 50vw;
+}
+
+@media screen and (max-width: 700px) {
+  .top {
+    -ms-grid-rows: 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr !important;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "guyWorking" "join";
+  }
+  .top .top__joinContainer {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: join;
+  }
+  .top .top__joinContainer .top__joinContainer__div {
+    margin-left: 0px;
+  }
+  .top .top__joinContainer .top__joinContainer__div .top__joinContainer__join {
+    color: black;
+    font-size: 20px;
+  }
+  .top .top__joinContainer .top__joinContainer__div .top__joinContainer__join .top__joinContainer__join__companyName {
+    color: #753bbd;
+  }
+  .top .top__joinContainer .top__joinContainer__div .top__joinContainer__txtContainer {
+    font-size: 13px;
+    color: #767683;
+    margin-bottom: 60px;
+  }
+  .top .top__joinContainer .top__joinContainer__div .top__joinContainer__buttonContainer .top__joinContainer__buttonContainer__button {
+    width: 136px;
+    height: 47px;
+    background-color: #753bbd;
+    border-radius: 20px;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .top .top__joinContainer .top__joinContainer__div .top__joinContainer__buttonContainer .top__joinContainer__buttonContainer__button .top__joinContainer__buttonContainer__button__txt {
+    color: white;
+  }
+  .top .top__imgContainer {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: guyWorking;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .top .top__imgContainer .top__imgContainer__div {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .top .top__imgContainer .top__imgContainer__div .top__imgContainer__div__img {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

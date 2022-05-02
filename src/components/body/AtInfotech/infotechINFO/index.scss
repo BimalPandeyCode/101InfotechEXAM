@@ -1,0 +1,29 @@
+.infotechInfo {
+  display: grid;
+  place-items: center;
+  height: 100%;
+
+  .infotechInfo__div {
+    width: 85%;
+    .infotechInfo__div__title {
+    }
+    .infotechInfo__div__txt {
+      line-height: 2;
+      color: #767683;
+      font-size: 14px;
+    }
+    .infotechInfo__div__button {
+      margin-top: 40px;
+      .infotechInfo__div__button__btn {
+        border: none;
+        background-color: #753bbd;
+        color: white;
+        width: 140px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 17px;
+        font-weight: 500;
+      }
+    }
+  }
+}

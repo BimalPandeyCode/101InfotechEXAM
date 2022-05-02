@@ -1,0 +1,99 @@
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 120px;
+  .top__joinContainer {
+    display: grid;
+    place-items: center;
+    .top__joinContainer__div {
+      margin-left: 0px;
+      .top__joinContainer__join {
+        color: black;
+        font-size: 20px;
+        .top__joinContainer__join__companyName {
+          color: #753bbd;
+        }
+      }
+      .top__joinContainer__txtContainer {
+        font-size: 13px;
+        color: #767683;
+        margin-bottom: 60px;
+      }
+      .top__joinContainer__buttonContainer {
+        .top__joinContainer__buttonContainer__button {
+          width: 136px;
+          height: 47px;
+          background-color: #753bbd;
+          border-radius: 20px;
+          display: grid;
+          place-items: center;
+          .top__joinContainer__buttonContainer__button__txt {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .top__imgContainer {
+    .top__imgContainer__div {
+      .top__imgContainer__div__img {
+        width: 50vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .top {
+    grid-template-rows: 1fr 1fr !important;
+    grid-template-columns: 1fr;
+    grid-template-areas: "guyWorking" "join";
+    .top__joinContainer {
+      display: grid;
+      place-items: center;
+      grid-area: join;
+      .top__joinContainer__div {
+        margin-left: 0px;
+        .top__joinContainer__join {
+          color: black;
+          font-size: 20px;
+          .top__joinContainer__join__companyName {
+            color: #753bbd;
+          }
+        }
+        .top__joinContainer__txtContainer {
+          font-size: 13px;
+          color: #767683;
+          margin-bottom: 60px;
+        }
+        .top__joinContainer__buttonContainer {
+          .top__joinContainer__buttonContainer__button {
+            width: 136px;
+            height: 47px;
+            background-color: #753bbd;
+            border-radius: 20px;
+            display: grid;
+            place-items: center;
+            .top__joinContainer__buttonContainer__button__txt {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .top__imgContainer {
+      grid-area: guyWorking;
+      width: 100%;
+      display: grid;
+      place-items: center;
+      .top__imgContainer__div {
+        display: grid;
+        place-items: center;
+        .top__imgContainer__div__img {
+          // width: 50vw;
+          width: 90%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,366 @@
+.Navbar {
+  height: 106px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.4fr 1fr 0.3fr;
+      grid-template-columns: 0.4fr 1fr 0.3fr;
+      grid-template-areas: "logo nav login";
+}
+
+.Navbar .Navbar__logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo;
+  display: -ms-grid;
+  display: grid;
+  place-items: end;
+}
+
+.Navbar .Navbar__logo .Navbar__logo__container .Navbar__logo__container__img {
+  width: 147px;
+  height: auto;
+}
+
+.Navbar .Navbar__navigation {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: nav;
+  color: #753bbd;
+  font-weight: 500;
+  font-size: 16px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: "home about services blogs contact";
+  place-items: center;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__home {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: home;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 15px;
+      grid-template-rows: 1fr 15px;
+  cursor: pointer;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__home .Navbar__navigation__home__txt {
+  padding-top: 15px;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__home .Navbar__navigation__home__span {
+  width: 100%;
+  background-color: #753bbd;
+  height: 2px;
+  place-self: end;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__about {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: about;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 15px;
+      grid-template-rows: 1fr 15px;
+  cursor: pointer;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__about .Navbar__navigation__about__txt {
+  padding-top: 15px;
+  color: #000000;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__about .Navbar__navigation__about__span {
+  width: 0%;
+  background-color: #000000;
+  height: 2px;
+  place-self: end;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__services {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: services;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 15px;
+      grid-template-rows: 1fr 15px;
+  cursor: pointer;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__services .Navbar__navigation__services__txt {
+  padding-top: 15px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__services .Navbar__navigation__services__txt div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__services .Navbar__navigation__services__span {
+  width: 0%;
+  background-color: #000000;
+  height: 2px;
+  place-self: end;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__blogs {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: blogs;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 15px;
+      grid-template-rows: 1fr 15px;
+  cursor: pointer;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__blogs .Navbar__navigation__blogs__txt {
+  padding-top: 15px;
+  color: #000000;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__blogs .Navbar__navigation__blogs__span {
+  width: 0%;
+  background-color: #000000;
+  height: 2px;
+  place-self: end;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__contact {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: contact;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 15px;
+      grid-template-rows: 1fr 15px;
+  cursor: pointer;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__contact .Navbar__navigation__contact__txt {
+  padding-top: 15px;
+  color: #000000;
+}
+
+.Navbar .Navbar__navigation .Navbar__navigation__contact .Navbar__navigation__contact__span {
+  width: 0%;
+  background-color: #000000;
+  height: 2px;
+  place-self: end;
+}
+
+.Navbar .Navbar__login {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: login;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.Navbar .Navbar__login .Navbar__login__button {
+  width: 100px;
+  height: 40px;
+  border: 2px solid #753bbd;
+  border-radius: 25px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.Navbar .Navbar__login .Navbar__login__button .Navbar__login__button__txt {
+  text-align: center;
+}
+
+.sideNavbar {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0.8fr;
+      grid-template-columns: 1fr 0.8fr;
+}
+
+.sideNavbar .sideNavbar__left {
+  background-color: #c8c5ffa6;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.sideNavbar .sideNavbar__right {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.sideNavbar .sideNavbar__right .sideNavbar__right__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 90px;
+}
+
+.sideNavbar .sideNavbar__right .sideNavbar__right__div > div {
+  padding: 15px;
+  padding-left: 20%;
+  cursor: pointer;
+}
+
+.sideNavbar .sideNavbar__right .sideNavbar__right__div > div:hover {
+  background-color: #ffc3ed;
+}
+
+.sideNavbar .sideNavbar__right .sideNavbar__right__div .sideNavbar__right__div__service .sideNavbar__right__div__service__titleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dropdown {
+  position: absolute;
+  top: 75px;
+  background-color: cyan;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.dropdown .dropdown__container {
+  border-radius: 4px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.dropdown .dropdown__container span {
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+  position: absolute;
+  top: -5px;
+  left: 10%;
+}
+
+.dropdown .dropdown__container div {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+}
+
+.dropdownMobile {
+  width: 100%;
+}
+
+.dropdownMobile .dropdownMobile__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dropdownMobile .dropdownMobile__div > div {
+  padding-top: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.dropdownMobile .dropdownMobile__div > div:hover {
+  background-color: #ffb3e8;
+}
+
+@media screen and (max-width: 700px) {
+  .Navbar {
+    height: 90px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.4fr 1fr 60px;
+        grid-template-columns: 0.4fr 1fr 60px;
+        grid-template-areas: "logo login sideMenu";
+  }
+  .Navbar .Navbar__logo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: logo;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .Navbar .Navbar__logo .Navbar__logo__container .Navbar__logo__container__img {
+    width: 84px;
+    height: auto;
+  }
+  .Navbar .Navbar__login {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: login;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding-right: 20px;
+  }
+  .Navbar .Navbar__login .Navbar__login__button {
+    width: 100px;
+    height: 40px;
+    background-color: #753bbd;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    border-radius: 0;
+  }
+  .Navbar .Navbar__login .Navbar__login__button .Navbar__login__button__txt {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .sideMenu {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: sideMenu;
+    z-index: 3;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=index.css.map */
