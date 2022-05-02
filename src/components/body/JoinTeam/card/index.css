@@ -10,6 +10,10 @@
   place-items: center;
 }
 
+.ReadyCard .ReadyCard__div {
+  width: 80%;
+}
+
 .ReadyCard .ReadyCard__div .ReadyCard__div__title {
   display: -webkit-box;
   display: -ms-flexbox;

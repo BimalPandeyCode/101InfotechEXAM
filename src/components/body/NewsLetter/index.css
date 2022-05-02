@@ -2,6 +2,7 @@
   display: -ms-grid;
   display: grid;
   place-items: center;
+  padding-top: 60px;
   color: white;
   overflow: hidden !important;
   padding-bottom: 40px;

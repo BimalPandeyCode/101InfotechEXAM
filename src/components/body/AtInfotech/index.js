@@ -44,7 +44,7 @@ const AtInfoTech = () => {
                   }
                 />
               </div>
-              <div>
+              <div className="AtInfoTech__cardContainer__div__two__two">
                 <Card
                   logo={award}
                   title={"Performance Award"}

@@ -28,7 +28,7 @@
         .AtInfoTech__cardContainer__div__two__one {
         }
         .AtInfoTech__cardContainer__div__two__two {
-          padding-top: 48px;
+          margin-top: 48px;
         }
       }
     }
@@ -40,7 +40,7 @@
 @media screen and (max-width: 1100px) {
   .AtInfoTech {
     display: grid;
-    grid-template-rows: 0.4fr 1fr !important;
+    grid-template-rows: 0.3fr 1fr !important;
     grid-template-columns: 1fr;
     grid-template-areas:
       "infoContainer"
@@ -52,13 +52,13 @@
       .AtInfoTech__cardContainer__div {
         width: 90%;
         .AtInfoTech__cardContainer__div__one {
-          margin: 10px 0px 0px 10px;
+          // margin: 10px 0px 0px 10px;
           .AtInfoTech__cardContainer__div__one__one {
             margin-bottom: 10px;
           }
         }
         .AtInfoTech__cardContainer__div__two {
-          margin: 10px 0px 0px 10px;
+          // margin: 10px 0px 0px 10px;
           .AtInfoTech__cardContainer__div__two__one {
             margin-bottom: 10px;
           }

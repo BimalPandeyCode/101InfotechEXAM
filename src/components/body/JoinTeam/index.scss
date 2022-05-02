@@ -11,7 +11,7 @@
       display: grid;
       place-items: center;
       .ready__div__container__title {
-        margin-top: 60px;
+        margin-top: 0px;
         margin-bottom: 60px;
       }
       .ready__div__container__cardHolder {
@@ -47,7 +47,7 @@
       display: grid;
       place-items: center;
       width: 100%;
-      padding-bottom: 50px;
+      padding-bottom: 25px;
       .ready__recruitment__cardsContainer__div {
         width: 95%;
         display: flex;
@@ -77,8 +77,8 @@
           }
         }
         .ready__div__container__button {
-          padding-top: 100px;
-          padding-bottom: 100px;
+          padding-top: 50px;
+          padding-bottom: 50px;
         }
       }
     }
