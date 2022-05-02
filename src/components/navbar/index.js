@@ -152,6 +152,16 @@ const SideNavBar = ({
         x: 0,
       }
     );
+    gsap.fromTo(
+      ".sideNavbar__left",
+      {
+        x: "-100%",
+        duration: 0.5,
+      },
+      {
+        x: 0,
+      }
+    );
   }, []);
   return (
     <>
