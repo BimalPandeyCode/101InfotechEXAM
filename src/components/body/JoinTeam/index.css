@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 780px) {
   .ready .ready__div .ready__div__container {
-    width: 100%;
+    width: 90%;
   }
   .ready .ready__div .ready__div__container .ready__div__container__cardHolder .ready__div__container__cardHolder__container {
     display: -webkit-box;
@@ -110,11 +110,15 @@
   }
   .ready .ready__recruitment {
     width: 100vw;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
   }
   .ready .ready__recruitment .ready__recruitment__titleContainer {
     display: -ms-grid;
     display: grid;
     place-items: center;
+    width: 90vw;
   }
   .ready .ready__recruitment .ready__recruitment__cardsContainer {
     display: -ms-grid;

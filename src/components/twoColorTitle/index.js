@@ -5,8 +5,10 @@ const Title = ({ one, two }) => {
   return (
     <>
       <div className="Title">
-        <h1 className="Title__one">{one}&nbsp;</h1>
-        <h1 className="Title__two">{two}</h1>
+        <h1 className="Title__one">
+          {one}&nbsp;
+          <span className="Title__two">{two}</span>
+        </h1>
       </div>
     </>
   );

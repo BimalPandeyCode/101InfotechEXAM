@@ -263,19 +263,17 @@ const DropdownMobile = () => {
 const mouseEnterAnim = (className) => {
   gsap.to(`.${className}`, {
     x: 3,
-    backgroundColor: "#f0f0f0",
-    color: "#383838",
+    backgroundColor: "#fffff",
     duration: 0.2,
-    paddingRight: 8,
+    // paddingRight: 8,
   });
 };
 const mouseLeaveAnim = (className) => {
   gsap.to(`.${className}`, {
     x: 0,
     backgroundColor: "#ffffff",
-    color: "#00000",
     duration: 0.2,
-    paddingRight: 15,
+    // paddingRight: 15,
   });
 };
 export default Navbar;

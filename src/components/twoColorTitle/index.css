@@ -12,22 +12,4 @@
 .Title .Title__two {
   color: #753bbd;
 }
-
-@media screen and (max-width: 485px) {
-  .Title {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .Title {
-    font-size: 11px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .Title {
-    font-size: 9px;
-  }
-}
 /*# sourceMappingURL=index.css.map */

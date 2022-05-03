@@ -64,7 +64,7 @@
   .ready {
     .ready__div {
       .ready__div__container {
-        width: 100%;
+        width: 90%;
         .ready__div__container__title {
         }
         .ready__div__container__cardHolder {
@@ -84,9 +84,12 @@
     }
     .ready__recruitment {
       width: 100vw;
+      display: grid;
+      place-items: center;
       .ready__recruitment__titleContainer {
         display: grid;
         place-items: center;
+        width: 90vw;
       }
       .ready__recruitment__cardsContainer {
         display: grid;
